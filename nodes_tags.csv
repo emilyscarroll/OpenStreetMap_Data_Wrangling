@@ -1,0 +1,614 @@
+id,key,value,type
+153919850,ele,318,regular
+153919850,Class,Populated Place,gnis
+153919850,County,Knox,gnis
+153919850,County_num,093,gnis
+153919850,ST_alpha,TN,gnis
+153919850,ST_num,47,gnis
+153919850,id,1292549,gnis
+153919850,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+153919850,is_in,"Knox,Tennessee,Tenn.,TN,USA",regular
+153919850,name,Maloneyville,regular
+153919850,place,hamlet,regular
+153979979,ele,300,regular
+153979979,Class,Populated Place,gnis
+153979979,County,Knox,gnis
+153979979,County_num,093,gnis
+153979979,ST_alpha,TN,gnis
+153979979,ST_num,47,gnis
+153979979,id,1314123,gnis
+153979979,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+153979979,is_in,"Knox,Tennessee,Tenn.,TN,USA",regular
+153979979,name,Fountain City,regular
+153979979,place,hamlet,regular
+153979979,wikidata,Q5474686,regular
+154054573,ele,299,regular
+154054573,Class,Populated Place,gnis
+154054573,County,Sevier,gnis
+154054573,County_num,155,gnis
+154054573,ST_alpha,TN,gnis
+154054573,ST_num,47,gnis
+154054573,id,1314924,gnis
+154054573,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154054573,is_in,"Sevier,Tennessee,Tenn.,TN,USA",regular
+154054573,name,Cusick,regular
+154054573,place,hamlet,regular
+154143427,ele,399,regular
+154143427,Class,Populated Place,gnis
+154143427,County,Knox,gnis
+154143427,County_num,093,gnis
+154143427,ST_alpha,TN,gnis
+154143427,ST_num,47,gnis
+154143427,id,1299411,gnis
+154143427,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154143427,is_in,"Knox,Tennessee,Tenn.,TN,USA",regular
+154143427,name,Ridgeview Heights,regular
+154143427,place,hamlet,regular
+154206386,ele,284,regular
+154206386,Class,Populated Place,gnis
+154206386,County,Knox,gnis
+154206386,County_num,093,gnis
+154206386,ST_alpha,TN,gnis
+154206386,ST_num,47,gnis
+154206386,id,1296781,gnis
+154206386,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154206386,is_in,"Knox,Tennessee,Tenn.,TN,USA",regular
+154206386,name,Park City,regular
+154206386,place,hamlet,regular
+154206386,wikidata,Q7138624,regular
+154341733,ele,299,regular
+154341733,Class,Populated Place,gnis
+154341733,County,Knox,gnis
+154341733,County_num,093,gnis
+154341733,ST_alpha,TN,gnis
+154341733,ST_num,47,gnis
+154341733,id,1285086,gnis
+154341733,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154341733,is_in,"Knox,Tennessee,Tenn.,TN,USA",regular
+154341733,name,Galewood,regular
+154341733,place,hamlet,regular
+201474400,highway,traffic_signals,regular
+201483088,highway,turning_circle,regular
+201827705,highway,turning_circle,regular
+201842392,highway,turning_circle,regular
+201860661,highway,turning_circle,regular
+202742356,power,tower,regular
+202742553,power,tower,regular
+202783674,highway,traffic_signals,regular
+202818531,highway,traffic_signals,regular
+202819947,highway,turning_circle,regular
+202829702,highway,turning_circle,regular
+202829702,source,Bing,regular
+202832328,highway,traffic_signals,regular
+202844015,highway,turning_circle,regular
+202844015,source,Bing,regular
+202862496,highway,turning_circle,regular
+202862496,source,Bing,regular
+202865908,highway,traffic_signals,regular
+202878798,highway,traffic_signals,regular
+202878798,traffic_signals,signal,regular
+202880632,highway,traffic_signals,regular
+202888679,highway,traffic_signals,regular
+202888679,traffic_signals,signal,regular
+202890056,highway,motorway_junction,regular
+202890056,ref,369,regular
+202890278,highway,turning_circle,regular
+202897989,highway,turning_circle,regular
+202911375,highway,turning_circle,regular
+202911375,source,Bing,regular
+202933302,highway,turning_circle,regular
+202933302,source,Bing,regular
+202954709,highway,traffic_signals,regular
+202962799,highway,turning_circle,regular
+202965217,highway,turning_circle,regular
+202965217,source,Bing,regular
+202989815,highway,turning_circle,regular
+202989815,source,Bing,regular
+202991080,highway,turning_circle,regular
+202991080,source,Bing,regular
+202991575,highway,turning_circle,regular
+202991575,source,Bing,regular
+203013458,highway,turning_circle,regular
+203013458,source,Bing,regular
+203027266,highway,turning_circle,regular
+203027266,source,Bing,regular
+203035713,highway,turning_circle,regular
+203035713,source,Bing,regular
+203047492,highway,turning_circle,regular
+203047492,source,Bing,regular
+203054473,highway,turning_circle,regular
+203054473,source,Bing,regular
+203056799,highway,turning_circle,regular
+203056799,source,Bing,regular
+203057516,highway,turning_circle,regular
+203065335,highway,turning_circle,regular
+203065335,source,Bing,regular
+203069410,highway,turning_circle,regular
+203072446,highway,turning_circle,regular
+203072446,source,Bing,regular
+203078356,highway,turning_circle,regular
+203086721,highway,turning_circle,regular
+203086721,source,Bing,regular
+203088167,highway,turning_circle,regular
+203088167,source,Bing,regular
+203094735,highway,turning_circle,regular
+203096944,highway,turning_circle,regular
+203096944,source,Bing,regular
+203103303,highway,turning_circle,regular
+203103303,source,Bing,regular
+203111999,highway,turning_circle,regular
+203111999,source,Bing,regular
+203114898,highway,turning_circle,regular
+203786608,highway,turning_circle,regular
+203786608,source,Bing,regular
+253116629,highway,motorway_junction,regular
+253116629,noref,yes,regular
+260903798,created_by,JOSM,regular
+263721418,attribution,USGS 2001 County Boundary,regular
+263721418,source,county_import_v0.1,regular
+263723912,attribution,USGS 2001 County Boundary,regular
+263723912,source,county_import_v0.1,regular
+263727309,attribution,USGS 2001 County Boundary,regular
+263727309,source,county_import_v0.1,regular
+263729078,attribution,USGS 2001 County Boundary,regular
+263729078,source,county_import_v0.1,regular
+263731998,attribution,USGS 2001 County Boundary,regular
+263731998,source,county_import_v0.1,regular
+263734736,attribution,USGS 2001 County Boundary,regular
+263734736,source,county_import_v0.1,regular
+263737156,attribution,USGS 2001 County Boundary,regular
+263737156,source,county_import_v0.1,regular
+263739384,attribution,USGS 2001 County Boundary,regular
+263739384,source,county_import_v0.1,regular
+263741720,attribution,USGS 2001 County Boundary,regular
+263741720,source,county_import_v0.1,regular
+332237724,created_by,Merkaartor 0.12,regular
+332431985,created_by,Merkaartor 0.12,regular
+332432258,created_by,Merkaartor 0.12,regular
+332432372,created_by,Merkaartor 0.12,regular
+332469715,created_by,Merkaartor 0.12,regular
+332469927,created_by,Merkaartor 0.12,regular
+332470310,created_by,Merkaartor 0.12,regular
+332487445,created_by,Merkaartor 0.12,regular
+355513253,highway,turning_circle,regular
+355837055,power,tower,regular
+356777029,amenity,school,regular
+356777029,ele,278,regular
+356777029,county_id,093,gnis
+356777029,created,05/19/1980,gnis
+356777029,feature_id,1270918,gnis
+356777029,state_id,47,gnis
+356777029,name,South Young High School,regular
+356782191,amenity,grave_yard,regular
+356782191,ele,287,regular
+356782191,county_id,093,gnis
+356782191,created,05/19/1980,gnis
+356782191,feature_id,1274104,gnis
+356782191,state_id,47,gnis
+356782191,name,Wells Cemetery,regular
+356787728,amenity,place_of_worship,regular
+356787728,denomination,methodist,regular
+356787728,ele,312,regular
+356787728,county_id,093,gnis
+356787728,created,05/19/1980,gnis
+356787728,feature_id,1277127,gnis
+356787728,state_id,47,gnis
+356787728,name,Bethel Church,regular
+356787728,religion,christian,regular
+356793276,amenity,place_of_worship,regular
+356793276,ele,308,regular
+356793276,county_id,093,gnis
+356793276,created,05/19/1980,gnis
+356793276,feature_id,1279999,gnis
+356793276,state_id,47,gnis
+356793276,name,Cedar Bluff Church,regular
+356793276,religion,christian,regular
+356800470,amenity,place_of_worship,regular
+356800470,ele,323,regular
+356800470,county_id,093,gnis
+356800470,created,05/19/1980,gnis
+356800470,feature_id,1283744,gnis
+356800470,state_id,47,gnis
+356800470,name,Embry Pike Church,regular
+356800470,religion,christian,regular
+356807627,amenity,grave_yard,regular
+356807627,ele,323,regular
+356807627,county_id,093,gnis
+356807627,created,05/19/1980,gnis
+356807627,feature_id,1286572,gnis
+356807627,state_id,47,gnis
+356807627,name,Hall Cemetery,regular
+356813302,amenity,grave_yard,regular
+356813302,ele,277,regular
+356813302,county_id,093,gnis
+356813302,created,05/19/1980,gnis
+356813302,feature_id,1289561,gnis
+356813302,state_id,47,gnis
+356813302,name,Johnson Cemetery,regular
+356818100,amenity,place_of_worship,regular
+356818100,denomination,methodist,regular
+356818100,ele,276,regular
+356818100,county_id,093,gnis
+356818100,created,05/19/1980,gnis
+356818100,edited,04/10/2007,gnis
+356818100,feature_id,1292414,gnis
+356818100,state_id,47,gnis
+356818100,name,Macedonia United Methodist Church,regular
+356818100,religion,christian,regular
+356822130,amenity,place_of_worship,regular
+356822130,ele,269,regular
+356822130,county_id,009,gnis
+356822130,created,05/19/1980,gnis
+356822130,feature_id,1294768,gnis
+356822130,state_id,47,gnis
+356822130,name,Mount Pleasant Church,regular
+356822130,religion,christian,regular
+356825958,amenity,grave_yard,regular
+356825958,ele,268,regular
+356825958,county_id,001,gnis
+356825958,created,05/19/1980,gnis
+356825958,feature_id,1296812,gnis
+356825958,state_id,47,gnis
+356825958,name,Parker Cemetery,regular
+356831489,amenity,school,regular
+356831489,ele,328,regular
+356831489,county_id,093,gnis
+356831489,created,05/19/1980,gnis
+356831489,feature_id,1300457,gnis
+356831489,state_id,47,gnis
+356831489,name,Saint Joseph School,regular
+356842142,amenity,place_of_worship,regular
+356842142,ele,318,regular
+356842142,county_id,089,gnis
+356842142,created,05/19/1980,gnis
+356842142,feature_id,1304681,gnis
+356842142,state_id,47,gnis
+356842142,name,Wooten Chapel,regular
+356842142,religion,christian,regular
+356844165,amenity,place_of_worship,regular
+356844165,denomination,baptist,regular
+356844165,ele,279,regular
+356844165,county_id,009,gnis
+356844165,created,08/01/1991,gnis
+356844165,feature_id,1305829,gnis
+356844165,state_id,47,gnis
+356844165,name,Central Point Baptist Church,regular
+356844165,religion,christian,regular
+356851360,ele,248,regular
+356851360,county_id,093,gnis
+356851360,created,12/01/1989,gnis
+356851360,feature_id,1312397,gnis
+356851360,state_id,47,gnis
+356851360,name,Weatherspoon Island (historical),regular
+356851360,place,island,regular
+356860990,amenity,school,regular
+356860990,ele,300,regular
+356860990,county_id,089,gnis
+356860990,created,10/01/1989,gnis
+356860990,feature_id,1318723,gnis
+356860990,state_id,47,gnis
+356860990,name,Rolling Hill School (historical),regular
+356869994,amenity,school,regular
+356869994,ele,268,regular
+356869994,county_id,093,gnis
+356869994,created,12/01/1989,gnis
+356869994,feature_id,1321451,gnis
+356869994,state_id,47,gnis
+356869994,name,Chilhowee Elementary School,regular
+356870165,amenity,place_of_worship,regular
+356870165,denomination,presbyterian,regular
+356870165,ele,294,regular
+356870165,county_id,093,gnis
+356870165,created,12/01/1989,gnis
+356870165,feature_id,1321531,gnis
+356870165,state_id,47,gnis
+356870165,name,Fourth United Presbyterian Church,regular
+356870165,religion,christian,regular
+356870350,amenity,place_of_worship,regular
+356870350,denomination,baptist,regular
+356870350,ele,299,regular
+356870350,county_id,093,gnis
+356870350,created,12/01/1989,gnis
+356870350,feature_id,1321614,gnis
+356870350,state_id,47,gnis
+356870350,name,Lincoln Park Baptist Church,regular
+356870350,religion,christian,regular
+356870507,amenity,school,regular
+356870507,ele,346,regular
+356870507,county_id,093,gnis
+356870507,created,12/01/1989,gnis
+356870507,feature_id,1321683,gnis
+356870507,state_id,47,gnis
+356870507,name,Ridgedale Elementary School,regular
+356870693,amenity,place_of_worship,regular
+356870693,denomination,methodist,regular
+356870693,ele,286,regular
+356870693,county_id,093,gnis
+356870693,created,12/01/1989,gnis
+356870693,feature_id,1321748,gnis
+356870693,state_id,47,gnis
+356870693,name,Virginia Avenue United Methodist Church,regular
+356870693,religion,christian,regular
+356886129,ele,291,regular
+356886129,county_id,093,gnis
+356886129,created,08/01/1991,gnis
+356886129,feature_id,1639905,gnis
+356886129,state_id,47,gnis
+356886129,man_made,tower,regular
+356886129,name,WSKT-AM (Knoxville),regular
+356892576,ele,259,regular
+356892576,county_id,155,gnis
+356892576,created,02/01/1990,gnis
+356892576,feature_id,1645400,gnis
+356892576,state_id,47,gnis
+356892576,name,Davis Shoals,regular
+356892576,waterway,rapids,regular
+356896550,amenity,school,regular
+356896550,ele,270,regular
+356896550,county_id,001,gnis
+356896550,created,04/01/1989,gnis
+356896550,feature_id,1648494,gnis
+356896550,state_id,47,gnis
+356896550,name,Glenwood Elementary School,regular
+368157289,state,TN,addr
+368157289,amenity,fire_station,regular
+368157289,ele,279,regular
+368157289,county_name,Knox,gnis
+368157289,feature_id,1321509,gnis
+368157289,import_uuid,57871b70-0100-4405-bb30-88b2e001a944,gnis
+368157289,reviewed,no,gnis
+368157289,name,Fire Station Number 26,regular
+368157289,source,USGS Geonames,regular
+368994940,state,TN,addr
+368994940,ele,256,regular
+368994940,county_name,Knox,gnis
+368994940,created,12/01/1989,gnis
+368994940,feature_id,1321637,gnis
+368994940,feature_type,Mine,gnis
+368994940,landuse,quarry,regular
+368994940,name,McMullen Quarry,regular
+586498854,man_made,environmental_hazard,regular
+586498854,name,Fort Sanders Regional Medical Center,regular
+586498854,source,http://www.epa.gov/enviro/geo_data.html,regular
+586498854,website,http://iaspub.epa.gov/enviro/national_kml.registry_html?p_registry_id=110001856787,regular
+633116241,highway,traffic_signals,regular
+633122286,highway,motorway_junction,regular
+633122286,ref,390,regular
+667718517,highway,turning_circle,regular
+705265648,highway,motorway_junction,regular
+705265648,ref,1B,regular
+1034461099,power,tower,regular
+1034461151,power,tower,regular
+1034473796,power,tower,regular
+1081498715,railway,level_crossing,regular
+1106913888,highway,turning_circle,regular
+1106913888,source,Bing,regular
+1149318374,railway,level_crossing,regular
+1239474422,power,tower,regular
+1241061557,power,tower,regular
+1241061999,power,tower,regular
+1241068148,power,tower,regular
+1241120417,power,tower,regular
+1241270798,power,tower,regular
+1241300060,power,tower,regular
+1241300150,power,tower,regular
+1241586363,power,tower,regular
+1241586432,power,tower,regular
+1241591479,power,tower,regular
+1241700618,power,tower,regular
+1241986792,power,tower,regular
+1242118937,power,tower,regular
+1242121584,power,tower,regular
+1242126456,power,tower,regular
+1242409304,power,tower,regular
+1244808073,power,tower,regular
+1245174577,power,tower,regular
+1254025389,power,tower,regular
+1254025441,power,tower,regular
+1254063201,power,pole,regular
+1254063252,power,pole,regular
+1254063345,power,tower,regular
+1254063402,power,pole,regular
+1254069486,power,tower,regular
+1254079682,power,tower,regular
+1254959589,power,pole,regular
+1255169902,power,pole,regular
+1759304704,amenity,fuel,regular
+1759304704,name,Pilot,regular
+1850537757,highway,turning_circle,regular
+1850537757,source,Bing,regular
+1852321523,name,Oak Ridge Estates,regular
+1852321523,place,hamlet,regular
+1855132870,amenity,restaurant,regular
+1855132870,cuisine,american,regular
+1855132870,name,Aubrey's,regular
+1925441857,highway,turning_circle,regular
+1990876764,power,tower,regular
+1990877145,power,tower,regular
+1990877545,power,pole,regular
+1990877768,power,pole,regular
+1990877828,power,pole,regular
+1990877878,power,pole,regular
+1990877970,power,pole,regular
+1990878339,power,pole,regular
+1990878463,power,tower,regular
+1990960412,power,tower,regular
+1990960581,power,tower,regular
+1990961031,power,pole,regular
+1990961417,power,tower,regular
+1991358369,power,pole,regular
+1991358425,power,pole,regular
+1991358482,power,pole,regular
+1991358568,power,pole,regular
+1991358618,power,pole,regular
+1991358750,power,pole,regular
+1991358974,power,pole,regular
+1991359110,power,pole,regular
+1991359178,power,pole,regular
+1991359851,power,pole,regular
+1991545483,power,pole,regular
+1991546962,power,pole,regular
+1991547820,power,pole,regular
+1991548119,power,pole,regular
+1991549388,power,pole,regular
+1993000678,power,pole,regular
+1993001593,power,pole,regular
+1993001933,power,pole,regular
+1993002512,power,pole,regular
+1993002889,power,pole,regular
+1993003130,power,pole,regular
+1993003486,power,pole,regular
+1993003768,power,pole,regular
+1993004014,power,pole,regular
+1993004168,power,pole,regular
+1993004241,power,pole,regular
+1993004301,power,pole,regular
+1993004361,power,pole,regular
+1993058818,power,pole,regular
+1993079461,power,tower,regular
+1993343110,power,tower,regular
+1993343337,power,tower,regular
+1993343500,power,tower,regular
+1993454943,power,pole,regular
+1993455001,power,pole,regular
+1993577252,power,pole,regular
+1993577493,power,pole,regular
+1993577704,power,pole,regular
+1993577787,power,pole,regular
+1993577952,power,pole,regular
+1993578224,power,pole,regular
+1993762038,power,tower,regular
+1993762101,power,tower,regular
+1993762151,power,tower,regular
+1993762212,power,tower,regular
+1993762528,power,tower,regular
+1993762747,power,tower,regular
+1993762967,power,tower,regular
+1993763178,power,tower,regular
+1993763835,power,tower,regular
+1995058025,power,tower,regular
+1995058377,power,tower,regular
+1996750921,power,tower,regular
+1998438010,power,pole,regular
+2178316929,highway,turning_circle,regular
+2178316929,source,Bing,regular
+2183445654,power,pole,regular
+2183446103,power,tower,regular
+2183446255,power,pole,regular
+2183446456,power,pole,regular
+2183446785,power,pole,regular
+2183447048,power,pole,regular
+2185644260,highway,turning_circle,regular
+2185644260,source,Bing,regular
+2190871310,highway,turning_circle,regular
+2190871310,source,Bing,regular
+2211587756,highway,turning_circle,regular
+2211587756,source,Bing,regular
+2229083623,highway,turning_circle,regular
+2229083623,source,Bing,regular
+2268254084,highway,turning_circle,regular
+2268254084,source,Bing,regular
+2341790037,crossing,traffic_signals,regular
+2341790037,highway,crossing,regular
+2488748112,highway,turning_circle,regular
+2488816941,highway,turning_circle,regular
+2489469345,highway,turning_circle,regular
+2517011465,amenity,theatre,regular
+2517011465,name,Tennessee Theater,regular
+2521239758,highway,turning_circle,regular
+2525766928,housenumber,8544,addr
+2525766928,street,Dresden Drive,addr
+2528239881,leisure,sports_centre,regular
+2528239881,name,YWCA,regular
+2683531569,city,Knoxville,addr
+2683531569,housenumber,314,addr
+2683531569,postcode,37922,addr
+2683531569,state,TN,addr
+2683531569,street,Lovell Road,addr
+2683531569,name,Pilot Travel Center #270,regular
+2683531569,shop,convenience,regular
+2713414532,amenity,fast_food,regular
+2713414532,cuisine,chicken,regular
+2713414532,name,Chick-fil-A,regular
+2740857697,highway,turning_circle,regular
+2763296822,highway,turning_circle,regular
+2827547440,amenity,school,regular
+2827547440,name,West Valley Middle School,regular
+2904095494,highway,traffic_signals,regular
+2905177424,highway,turning_circle,regular
+2921386825,highway,turning_circle,regular
+3298541548,highway,turning_circle,regular
+3360845886,highway,turning_circle,regular
+3386923587,highway,turning_circle,regular
+3827246263,railway,level_crossing,regular
+3832688605,highway,turning_circle,regular
+3858166663,name,Kirkland's Home,regular
+3858166663,shop,furniture,regular
+3868256557,name,Mast General Store,regular
+3868256557,shop,department_store,regular
+3877117658,railway,level_crossing,regular
+3877254365,railway,level_crossing,regular
+3877254415,railway,level_crossing,regular
+3913840611,highway,crossing,regular
+4084617881,name,Fairfield Inn & Suites Knoxville West,regular
+4084617881,tourism,motel,regular
+4084617936,name,Travelodge Knoxville West,regular
+4084617936,tourism,motel,regular
+4147969575,highway,turning_circle,regular
+4337144535,amenity,fast_food,regular
+4337144535,cuisine,burger,regular
+4337144535,name,Shoney's,regular
+4438809720,city,Knoxville,addr
+4438809720,housenumber,5634,addr
+4438809720,state,TN,addr
+4438809720,street,Merchants Center Boulevard,addr
+4438809720,internet_access,wlan,regular
+4438809720,fee,no,internet_access
+4438809720,name,Holiday Inn Knoxville N - Merchant Drive,regular
+4438809720,operator,Intercontinental Hotels Group®,regular
+4438809720,phone,+1-865-687-8989,regular
+4438809720,rooms,122,regular
+4438809720,smoking,no,regular
+4438809720,stars,3,regular
+4438809720,tourism,hotel,regular
+4438809720,website,https://www.ihg.com/holidayinn/hotels/us/en/knoxville/tysmr/hoteldetail,regular
+4439003765,name,GEICO,regular
+4439003765,office,insurance,regular
+4440969939,brand,Toyota,regular
+4440969939,shop,car,regular
+4586222689,housenumber,8926,addr
+4586222689,postcode,37923,addr
+4586222689,street,Town and Country Circle,addr
+4586222689,amenity,restaurant,regular
+4586222689,cuisine,thai,regular
+4586222689,name,Taste of Thai,regular
+4586222689,opening_hours,"Mo-Fr 11:00-15:00, 17:00-21:30; Sa 12:00-15:00, 17:00-22:00; Su 12:00-21:00",regular
+4586222689,phone,(865) 691-4442,regular
+4586222689,website,http://www.tasteofthaiknoxville.com,regular
+4612538588,highway,turning_circle,regular
+4620011625,city,Louisville,addr
+4620011625,housenumber,115,addr
+4620011625,postcode,37777,addr
+4620011625,state,TN,addr
+4620011625,street,Christopher Ln,addr
+4620011625,name,Ensley's Shooting Supply,regular
+4620011625,phone,865-970-4867,regular
+4620011625,website,http://ensleysshootingsupply.net,regular
+4907921741,amenity,fast_food,regular
+4907921741,cuisine,pizza,regular
+4907921741,name,Little Caesars,regular
+4926018780,emergency,fire_hydrant,regular
+4926018780,type,pillar,fire_hydrant
+4926018930,city,Clinton,addr
+4926018930,housenumber,125,addr
+4926018930,postcode,37716,addr
+4926018930,state,TN,addr
+4926018930,street,West Broad Street,addr
+4926018930,amenity,police,regular
+4926018930,name,City of Clinton Police Headquarters,regular
+4931727777,entrance,yes,regular
+4934485981,entrance,yes,regular
+5173389429,highway,traffic_signals,regular
+5651175894,crossing,traffic_signals,regular
+5651175894,highway,traffic_signals,regular
+5698450149,power,tower,regular
