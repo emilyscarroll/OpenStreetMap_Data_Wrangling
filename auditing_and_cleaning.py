@@ -75,8 +75,14 @@ WAY_NODES_FIELDS = ['id', 'node_id', 'position']
 
 #shaping node and way elements into python dicts
 def shape_element(element, node_attr_fields=NODE_FIELDS, way_attr_fields=WAY_FIELDS,
-                  problem_chars=PROBLEMCHARS, default_tag_type='regular'):
-                  
+                  problem_chars=PROBLEMCHARS, default_tag_type='regular', OSMFILE):
+            
+                    
+    street_types = audit(OSMFILE)
+    for street_type, ways in street_types.iteritems():
+        for name in ways:
+            update_name(name, mapping)
+            
     node_attribs = {}
     way_attribs = {}
     way_nodes = []
