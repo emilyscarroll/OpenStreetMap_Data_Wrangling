@@ -6,6 +6,7 @@ import csv
 import codecs
 import cerberus
 import schema
+import pandas
 
 OSMFILE = open("sample0511.osm")
 
