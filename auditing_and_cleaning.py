@@ -6,9 +6,9 @@ import csv
 import codecs
 import cerberus
 import schema
-import pandas
 
-OSMFILE = open("sample0511.osm")
+
+OSMFILE = "sample0511.osm"
 
 
 #regular expression
@@ -31,10 +31,10 @@ def audit_street_type(street_types, street_name):
 def is_street_name(elem):
     return (elem.attrib['k'] == "addr:street")
 
-def audit(osmfile):
-    osm_file = open(osmfile, "r")
-    street_types = default_dict(set)
-    for event, elem in ET.iterparse(osmfile, events=("start",)):
+def audit(OSMFILE):
+    osm_file = open(OSMFILE, "r")
+    street_types = defaultdict(set)
+    for event, elem in ET.iterparse(OSMFILE, events=("start",)):
 
         if elem.tag == "way":
             for tag in elem.iter("tag"):
@@ -75,12 +75,11 @@ WAY_NODES_FIELDS = ['id', 'node_id', 'position']
 
 
 #shaping node and way elements into python dicts
-def shape_element(element, node_attr_fields=NODE_FIELDS, way_attr_fields=WAY_FIELDS,
-                  problem_chars=PROBLEMCHARS, default_tag_type='regular', OSMFILE):
+def shape_element(element, node_attr_fields, way_attr_fields,
+                  problem_chars, default_tag_type, OSMFILE):
             
-                    
     street_types = audit(OSMFILE)
-    for street_type, ways in street_types.iteritems():
+    for street_type, ways in street_types.items():
         for name in ways:
             update_name(name, mapping)
             
@@ -188,7 +187,7 @@ def process_map(file_in, validate):
         validator = cerberus.Validator()
 
         for element in get_element(file_in, tags=('node', 'way')):
-            el = shape_element(element)
+            el = shape_element(element, NODE_FIELDS, WAY_FIELDS, PROBLEMCHARS, 'regular', OSMFILE)
             if el:
                 if validate is True:
                     validate_element(el, validator)
