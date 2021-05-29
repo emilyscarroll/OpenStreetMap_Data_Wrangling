@@ -78,11 +78,6 @@ WAY_NODES_FIELDS = ['id', 'node_id', 'position']
 def shape_element(element, node_attr_fields, way_attr_fields,
                   problem_chars, default_tag_type, OSMFILE):
             
-    street_types = audit(OSMFILE)
-    for street_type, ways in street_types.items():
-        for name in ways:
-            update_name(name, mapping)
-            
     node_attribs = {}
     way_attribs = {}
     way_nodes = []
@@ -90,36 +85,70 @@ def shape_element(element, node_attr_fields, way_attr_fields,
 
     if element.tag == 'node':
         for item in NODE_FIELDS:
-            node_attribs[item] = element.get(item)
-        for child in element:
-            tag_dict = {}
-            colon = child.get('k').find(':')
-            if (child.tag == 'tag'):
-                tag_dict['id'] = element.get('id')
-                tag_dict['value'] = child.get('v')
-                if (colon != -1):
-                    type_value = child.get('k')[:colon]
-                    key_value = child.get('k')[colon+1:]
-                    tag_dict['type'] = type_value
-                    tag_dict['key'] = key_value
+            node_attribs[item] = element.attrib[item]
+            
+        for child in element.iter('tag'):
+            if PROBLEMCHARS.match(child.attrib['k']):
+                break
+
+            else:
+                
+                st_types = audit(OSMFILE)
+                for st_type, nodes in st_types.items():
+                    for name in nodes:
+                        update_name(name, mapping)
+                        
+                tag_dict = {}
+                tag_dict['id'] = element.attrib['id']
+                tag_dict['value'] = child.attrib['v']
+                if ':' in child.attrib['k']:
+                    k_value = child.attrib['k'].split(':',1)
+                    tag_dict['type'] = k_value[0]
+                    tag_dict['key'] = k_value[1]
                 else:
-                    tag_dict['key'] = child.get('k')
-                    tag_dict['type'] = 'regular'
+                    tag_dict['key'] = child.attrib['k']
+                    tag_dict['type'] = default_tag_type
                 tags.append(tag_dict)
+                
         return {'node': node_attribs, 'node_tags': tags}
+    
     elif element.tag == 'way':
+        
         for item in WAY_FIELDS:
-            way_attribs[item] = element.get(item)
-        n = 0
-        for child in element:
-            if child.tag == 'nd':
+            way_attribs[item] = element.attrib[item]
+
+        for child in element.iter('tag'):
+            if PROBLEMCHARS.match(child.attrib['k']):
+                break
+            else:
+                
+                st_types = audit(OSMFILE)
+                for st_type, ways in st_types.items():
+                    for name in ways:
+                        update_name(name, mapping)
+                        
                 nd_dict = {}
-                nd_dict['id'] = element.get('id')
-                nd_dict['node_id'] = child.get('ref')
-                nd_dict['position'] = n
-                n += 1
-                way_nodes.append(nd_dict)
-        return {'way': way_attribs, 'way_nodes': way_nodes, 'way_tags': tags}
+                nd_dict['id'] = element.attrib['id']
+                nd_dict['value'] = child.attrib['v']
+                if ':' in child.attrib['k']:
+                    k_value = child.attrib['k'].split(':',1)
+                    nd_dict['type'] = k_value[0]
+                    nd_dict['key'] = k_value[1]
+                else:
+                    nd_dict['type'] = default_tag_type
+                    nd_dict['key'] = child.attrib['k']
+                tags.append(nd_dict)
+                
+                pos = 0
+                for node in element.iter('nd'):
+                    way_node = {}
+                    way_node['id'] = element.attrib['id']
+                    way_node['node_id'] = node.attrib['ref']
+                    way_node['position'] = pos
+                    pos += 1
+                    way_nodes.append(way_node)
+                    
+                return {'way': way_attribs, 'way_nodes': way_nodes, 'way_tags': tags}
 
 
 # ================================================== #
