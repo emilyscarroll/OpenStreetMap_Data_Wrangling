@@ -6,9 +6,10 @@ import csv
 import codecs
 import cerberus
 import schema
+import json
 
 
-OSMFILE = "sample0511.osm"
+OSMFILE = "Knoxville.osm"
 
 
 #regular expression
@@ -49,7 +50,7 @@ def update_name(name, mapping):
     m = street_type_re.search(name)
     if m:
         street_type = m.group()
-        if street_type not in expected:
+        if street_type in mapping:
             name = re.sub(street_type_re, mapping[street_type], name)
 
     return name
@@ -91,16 +92,10 @@ def shape_element(element, node_attr_fields, way_attr_fields,
             if PROBLEMCHARS.match(child.attrib['k']):
                 break
 
-            else:
-                
-                st_types = audit(OSMFILE)
-                for st_type, nodes in st_types.items():
-                    for name in nodes:
-                        update_name(name, mapping)
-                        
+            else:       
                 tag_dict = {}
                 tag_dict['id'] = element.attrib['id']
-                tag_dict['value'] = child.attrib['v']
+                tag_dict['value'] = update_name(child.attrib['v'], mapping)
                 if ':' in child.attrib['k']:
                     k_value = child.attrib['k'].split(':',1)
                     tag_dict['type'] = k_value[0]
@@ -121,15 +116,10 @@ def shape_element(element, node_attr_fields, way_attr_fields,
             if PROBLEMCHARS.match(child.attrib['k']):
                 break
             else:
-                
-                st_types = audit(OSMFILE)
-                for st_type, ways in st_types.items():
-                    for name in ways:
-                        update_name(name, mapping)
-                        
                 nd_dict = {}
                 nd_dict['id'] = element.attrib['id']
-                nd_dict['value'] = child.attrib['v']
+                nd_dict['value'] = update_name(child.attrib['v'], mapping)
+            
                 if ':' in child.attrib['k']:
                     k_value = child.attrib['k'].split(':',1)
                     nd_dict['type'] = k_value[0]
